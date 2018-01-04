@@ -1,0 +1,170 @@
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/Mastercard.jpg');
+	 min-width: 50%;
+    min-height: 100%;
+}
+body, html {
+    height: 100%;
+    color: black;
+    line-height: 1.8;
+}
+
+.mySlides {display:none;}
+
+/* serchfilter list */
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+ 
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid black;
+  margin-bottom: 12px;
+   
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color:black; 
+   width: 100%;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 10px;
+  color:white;
+  display: block
+ 
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: green;
+  color:white;
+  opacity;1;
+}
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+	font-size:14;
+}
+.imgBorder {
+  padding: 15px 15px 0;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+	  
+
+		
+<!--responsive scroll-->		
+
+
+	
+		
+.w3-theme{
+color:#FFFFFF !important; background-color:#0B0B3B !important
+        }
+
+<!--topbutton--->
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  opacity:0;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}	
+
+<!--timer-->
+p {
+  text-align: center;
+  font-size: 60px;
+}	
+
+<!---list pics--->
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+	color:black;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 90%;
+	
+    width: 100%;
+    margin-right: 20px;
+   
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.w3-twothird-right, {
+    float: right;
+    color: #aaa;
+}
+
+.w3-third-left {
+    float: left;
+    color: #999;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 220px;
+}
+
+
+

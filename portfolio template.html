@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<title>FABRICOT Kenya</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/jadore.jpg');
+	 min-width: 50%;
+    min-height: 100%;
+}
+body, html {
+    height: 100%;
+    color: black;
+    line-height: 1.8;
+}
+
+
+</style>
+<body>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+(function($){
+  $(window).load(function(){
+
+    $("#content-1").mCustomScrollbar({
+      axis:"yx", //set both axis scrollbars
+      advanced:{autoExpandHorizontalScroll:true}, //auto-expand content to accommodate floated elements
+      // change mouse-wheel axis on-the-fly 
+      callbacks:{
+        onOverflowY:function(){
+          var opt=$(this).data("mCS").opt;
+          if(opt.mouseWheel.axis!=="y") opt.mouseWheel.axis="y";
+        },
+        onOverflowX:function(){
+          var opt=$(this).data("mCS").opt;
+          if(opt.mouseWheel.axis!=="x") opt.mouseWheel.axis="x";
+        },
+      }
+    });
+
+  });
+})(jQuery);
+</script>
+</head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:50%">
+  <div class="bgimg">
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:50%">
+
+
+ 
+<!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+  <a href="file:///D:/Fabfinal/index.html" class="w3-center  "><img src="images/fabricourt.jpg" style="width:50%" alt="Logo" class="w3-sepia-max"><a/>
+    <h2 class="w3-xxlarge"><b>James Mongeri</b></h2>
+    <p>Marson (Fundi wa Chuma, Marson).</p>
+    <img src="images/James.jpg" class="w3-image  w3-round" style="display:block;width:65%;margin:auto;">
+  <br><br><br>
+
+  </header>
+
+
+
+<!-- Portfolio Section -->
+<body class="w3-win8-blue">
+
+<br><br>
+<!-- Navbar (sit botto,) -->
+<div class="w3-bottom w3-small">
+<div class="w3-bar" id="myNavbar">
+
+  <a href="file:///D:/Fabfinal/index.html" class="w3-bar-item w3-button ">HOME</a>
+	<a href="file:///D:/Fabfinal/Marsons.html" class="w3-bar-item w3-button ">BACK TO MARSONS</a>
+   <a href="file:///D:/Fabfinal/Resume%20sample2.html" class="w3-bar-item w3-button ">RESUME</a>
+  </a>
+</div>
+</div>
+
+<hr class="w3-topbar">
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container " id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+	 <div class="w3-panel">
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-center">
+ 
+  </div>
+  </div>
+ </div>
+</div>
+
+<hr>
+
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64 w3-metro-light-blue"  id="portfolio">
+  <h3 class="w3-center w3-white">MY WORK</h3>
+  <p class="w3-center"><em>Here are some of my work click to view full size</em></p><br>
+
+
+<!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="images/beuty.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Nyandarua heights 2014">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/flat.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Maliko Flats Ndumberi 2009">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/lc3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kasongo Club Westlands 2012">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/3d8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kilimani Nairobi 2016">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="images/3d9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Dubai crub 2015">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/lc.jpg" style="width:100%"  onclick="onClick(this)" class="w3-hover-opacity" alt="Musebe house Nairobi 2013">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/white.jpg" style="width:100%"  onclick="onClick(this)" class="w3-hover-opacity" alt="Morphat Mombasa 2011">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/hse22.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailors Muthaiga Nairobi 2017">
+    </div>
+    
+  </div>
+</div>
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+<hr>
+
+
+<!-- About Section -->
+  <div class="w3-content w3-justify  w3-small w3-text-black w3-padding-32" id="about">
+  <div class="w3-container w3-metro-light-blue">
+    <h2 class="w3-center w3-white" >About</h2>
+    <hr class="w3-opacity">
+	<P>Location: Nairobi, Langata</p>
+<P>Skill: Marson</p>
+<P>Expirience: <i class="w3-hide">5,6,7,8,9,10</i>13 years </p>
+
+   <p> <button class="w3-button w3-metro-darken  w3-padding-large w3-margin-top">
+    Contact+ 0745 119 376
+    </button></p>
+	<h4 class="w3-center"> Why you should hire me </h4>
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+	</div>
+	<hr>
+
+	 <div class="w3-container w3-metro-light-blue">
+    <h3 class="w3-padding-16 w3-center">My Skills</h3>
+    <p class="w3-wide">Masonry</p>
+    <div class="w3-white">
+      <div class="w3-container w3-center w3-padding-small w3-blue" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">Tiling</p>
+    <div class="w3-white">
+      <div class="w3-container w3-center w3-padding-small w3-amber" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Roofing</p>
+    <div class="w3-white">
+      <div class="w3-container w3-center w3-padding-small w3-green" style="width:80%">80%</div>
+    </div><br>
+	</div>
+ <hr>
+    <div class="w3-row w3-center w3-metro-darken w3-text-white w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">14+</span><br>
+        Companies built for...
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects led and accomplished 
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Projects done under employement
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">159+</span><br>
+        Total Projects done 
+      </div>
+    </div>
+	</div>
+
+
+<!--resume-->
+<button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i>
+	 
+<a href="images/patricia.docx" download=" Resume" >
+Download my Resume
+</a>
+    </button>
+
+<img src="images/jadore.jpg" class="w3-image w3-hide-large w3-hide-medium w3-hide-small w3-round" style="display:block;width:50%;margin:auto;">
+    <img src="images/jadore.jpg" class="w3-image w3-hide-large w3-round" width="1000" height="1333">
+
+</div>
+
+
+<br><br><br>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+  <a href="file:///D:/Fibricot/About.html"  class="w3-button">About</a>|
+  <a href="file:///D:/Fibricot/Contact.html" class="w3-button">Contact</a> |
+  <a href="file:///D:/Fibricot/Pricing.html" class="w3-button">Pricing</a>
+ </div>
+ 
+</footer>
+
+<!--js location-->
+<script>
+//My UL
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+
+<script src="fab_script_src.js"
+</script>
+</body>
+</html>
+
+
+
+
